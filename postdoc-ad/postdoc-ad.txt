@@ -1,0 +1,47 @@
+We welcome applications for a two-year Postdoctoral Scholar -
+Research Associate appointment at the Viterbi School of Engineering
+- Computer Science Department of the University of Southern California.
+The appointment is in accordance with the university's postdoctoral
+education program to provide an opportunity for recent graduates
+to further develop their research skills and learn new techniques.
+
+The candidate will be responsible for researching new and innovative
+techniques for software stewardship in the Geosciences community,
+specifically working with team members in the NSF EarthCube community.
+Research goals include information retrieval techniques to automatically
+discern open source software licenses; techniques for metadata
+extraction from software toolkits used in the geosciences community,
+and new methods for crawling and searching software repositories
+and other areas of the web graph. In addition, ranking and retrieval
+algorithms for geosciences software will be explored. The applicant
+should have strong experience in Apache search software, including
+but not limited to Apache Tika, Apache Solr, ElasticSearch, Apache
+Lucene, and Apache Nutch. Knowledge of geosciences, Earth sciences,
+is a plus, and candidates with formal training and backgrounds in
+those areas will be considered. This is expected to be a cross
+cutting, Data Science oriented, post doc activity. Applicants
+interested in Big Data, geosciences, and in open source are encouraged
+to apply.
+
+The applicant will be connected to the mentor’s teams at the Jet
+Propulsion Laboratory, California Institute of Technology, in close
+collaboration with USC. Team members include the USC Information
+Sciences Institute and members there who are leading the project;
+members from the University of Colorado, and from Penn State
+University; and members from the Earth Science Information Partners
+(ESIP) Federation. Applicants with familiarity of the ESIP community
+and that have participated in projects involving geosciences data
+(remote sensing; in-situ; model outputs, etc.) and stewardship, are
+encouraged.
+
+The appointment period is contingent upon providing proof of
+employment authorization.  Applicants are eligible to be considered
+for reappointment on a year-to-year basis, but there is no guarantee
+of reappointment, which is at the university's discretion
+
+Applicants should send a resume, cover letter and statement of
+research, and three letters of recommendation to Dr. Chris Mattmann
+(chris.a.mattmann@nasa.gov). Decisions will be made promptly, with
+the expectation for the applicant to be in the February 2015 time
+frame.
+
