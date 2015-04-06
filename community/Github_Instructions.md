@@ -1,3 +1,8 @@
+Guide for Contributing your project to Github
+=============================================
+Please follow these instructions for contributing your project
+to Github!
+
 1. download and install hub.github.com
 2. follow this guide to make sure that you have Git SSH keys:
 https://help.github.com/articles/generating-ssh-keys/
