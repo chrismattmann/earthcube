@@ -3,27 +3,35 @@ Guide for Contributing your project to Github
 Please follow these instructions for contributing your project
 to Github!
 
-1. download and install hub.github.com: need to install 'brew', and 'go' 
-1.1 install brew 
-Untar anywhere and then symlink the brew command elsewhere 
-  ```
-  $ mkdir /usr/local/homebrew && curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C homebrew 
-  $ cd /usr/local/bin 
-  $ sudo ln -s /usr/local/homebrew/bin/brew brew 
-  # change shell temporally 
-  # check shell: 
-  $ echo $0 
-  # check all available shells: 
-  $ cat /etc/shells 
-  # temporarily change: 
-  $ exec /bin/bash 
-  # permanently change: 
-  $ chsh -s /bin/csh 
-  ```
-1.2 install go 
+Pre-Requisites
+==============
+1. download and install hub.github.com. You will need to install 'brew', and 'go' after.
+2. install brew 
+  Untar anywhere and then symlink the brew command elsewhere 
+```
+$ mkdir /usr/local/homebrew && curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C homebrew 
+$ cd /usr/local/bin 
+$ sudo ln -s /usr/local/homebrew/bin/brew brew 
+# change shell temporally 
+# check shell: 
+$ echo $0 
+# check all available shells: 
+$ cat /etc/shells 
+# temporarily change: 
+$ exec /bin/bash 
+# permanently change: 
+$ chsh -s /bin/csh 
+```
+
+Brew Dependencies
+=================
+3. install go 
   ```$ brew install go``` 
   add path to .cshrc: 
   ```setenv GOPATH /usr/local/homebrew/Cellar/go/1.4.2/bin```
+
+Git SSH Keys
+============
 2. follow this guide to make sure that you have Git SSH keys:
 https://help.github.com/articles/generating-ssh-keys/
     TL;DR version:
@@ -32,6 +40,9 @@ https://help.github.com/articles/generating-ssh-keys/
      c. grab the value out of $HOME/.ssh/id_rsa.pub and then 
   go over to your Github account > Settings > SSH keys and paste
   the value of the id_rsa.pub file into the key setting.
+
+Create your project locally and then check in to Git
+====================================================
 3. ```$mkdir -p $HOME/src/<your project name>```
    (Create your local project)
 4. ```$cd $HOME/src/<your project name>```
