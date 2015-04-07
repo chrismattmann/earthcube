@@ -4,7 +4,7 @@ Please follow these instructions for contributing your project
 to Github!
 
 1. download and install hub.github.com: need to install 'brew', and 'go' 
- 1.1.1 install brew 
+1.1.1 install brew 
 Untar anywhere and then symlink the brew command elsewhere 
 $ mkdir /usr/local/homebrew && curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C homebrew 
 $ cd /usr/local/bin 
@@ -19,7 +19,7 @@ $ exec /bin/bash
 * permanently change: 
 $ chsh -s /bin/csh 
 Passwd: 
- 1.1.2 install go 
+1.1.2 install go 
 $ brew install go 
 add path to .cshrc: 
 setenv GOPATH /usr/local/homebrew/Cellar/go/1.4.2/bin
