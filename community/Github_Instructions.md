@@ -12,23 +12,22 @@ Pre-Requisites
 $ mkdir /usr/local/homebrew && curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C homebrew 
 $ cd /usr/local/bin 
 $ sudo ln -s /usr/local/homebrew/bin/brew brew 
-# change shell temporally 
-# check shell: 
-$ echo $0 
-# check all available shells: 
-$ cat /etc/shells 
-# temporarily change: 
-$ exec /bin/bash 
-# permanently change: 
-$ chsh -s /bin/csh 
 ```
 
 Brew Dependencies
 =================
 3. install go 
   ```$ brew install go``` 
-  add path to .cshrc: 
-  ```setenv GOPATH /usr/local/homebrew/Cellar/go/1.4.2/bin```
+  add path to .cshrc and/or .bashrc: 
+  ```setenv GOPATH /usr/local/homebrew/Cellar/go/1.4.2/bin``` (csh)
+  ```export GOPATH=/usr/local/homebrew/Cellar/go/1.4.2/bin``` (bash)
+4. install hub
+```
+$ cd $HOME/src && git clone https://github.com/github/hub.git
+$ cd hub
+$ script/build
+$ mv ./hub ~/bin # (make sure your PATH includes $HOME/bin)
+```
 
 Git SSH Keys
 ============
